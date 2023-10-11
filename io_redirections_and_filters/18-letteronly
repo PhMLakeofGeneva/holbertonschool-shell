@@ -1,2 +1,2 @@
 #!/bin/bash
-greg -i 'n*' /etc/ssh/sshd_config
+greg '^[[:alpha:]]' /etc/ssh/sshd_config
